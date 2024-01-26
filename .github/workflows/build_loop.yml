@@ -41,7 +41,7 @@ jobs:
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: customization details
-          #curl curl https://github.com/katelynmhopper/LoopKit/commit/8e66113c35fb4d5f81fcb1550503c26d705b7607.patch | git apply -v --directory=LoopKit
+          #curl curl https://github.com/katelynmhopper/LoopKit/commit/48f37373591aaabe92bfe1dfd6dfcc4c04b24a53.patch | git apply -v --directory=LoopKit
           # Submodule xxxxx patches: Follow prototype above
 
       # Patch Fastlane Match to not print tables
