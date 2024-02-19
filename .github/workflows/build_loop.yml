@@ -28,17 +28,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-          
-      # Customize Loop: Download and apply patches
-      - name: Customize Loop
-        run: |
-
-          # For each patch, edit comment line (keep the #) then update curl (and remove the #)
-
-          # Submodule Loop patches:
-          # Loop: Filename: customization details
-          #curl https://github.com/username/Loop/commit/SHA-1.patch | git apply -v --directory=Loop
-
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
