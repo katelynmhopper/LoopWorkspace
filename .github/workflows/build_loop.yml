@@ -39,10 +39,6 @@ jobs:
           # Loop: Filename: customization details
           #curl https://github.com/username/Loop/commit/SHA-1.patch | git apply -v --directory=Loop
 
-          # Submodule LoopKit patches:
-          # LoopKit: Filename: customization details
-          #curl curl https://github.com/katelynmhopper/LoopKit/commit/36026f831152c8312df3ab887dca9db6ca6a26de.patch | git apply -v --directory=LoopKit
-          # Submodule xxxxx patches: Follow prototype above
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
