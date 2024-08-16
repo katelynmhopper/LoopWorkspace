@@ -278,7 +278,7 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
           # Module: File: code customization description
-          curl https://github.com/katelynmhopper/LoopKit/commit/4c6c4ae25a48763216280e7157498e4aa5dba53c.patch | git apply -v --directory=Module
+          curl https://github.com/katelynmhopper/LoopKit/LoopKit/commit/4c6c4ae25a48763216280e7157498e4aa5dba53c.patch | git apply -v --directory=Module
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
